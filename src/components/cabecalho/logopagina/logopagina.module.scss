@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+.boxlogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.boxsimbolopagina, .boxnomeempresa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxsimbolopagina{
+    color: white;
+    background-color: purple;
+    height: 55px;
+    width: 55px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.boxnomeempresa{
+    
+}
