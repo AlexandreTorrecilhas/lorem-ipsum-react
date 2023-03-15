@@ -6,12 +6,17 @@ import container from '../../components/container.module.scss';
 
 export default function CriandoCabecalho(){
     return(
-        <div className={container.container}>
-            <header className={style.cabecalho}>
-                <CriandoLogo/>
-                <LinksNavegacao/>
-                <BotaoMenu/>
-            </header>
-        </div>
+        <header>
+            <div className={container.container}>
+                <div className={style.cabecalho}>
+                    <CriandoLogo/>
+                    <LinksNavegacao/>
+                    <BotaoMenu/>
+                </div>
+            </div>
+            <div id='imagemfundo' className={style.imagemfundo}>
+
+            </div>
+        </header>
     )
 }
