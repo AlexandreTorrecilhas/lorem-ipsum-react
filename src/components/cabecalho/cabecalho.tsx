@@ -9,7 +9,9 @@ export default function CriandoCabecalho(){
         <header>
             <div className={container.container}>
                 <div className={style.cabecalho}>
-                    <CriandoLogo/>
+                    <div>
+                        <CriandoLogo/>
+                    </div>
                     <LinksNavegacao/>
                     <BotaoMenu/>
                 </div>
