@@ -9,8 +9,17 @@
     justify-content: center;
 }
 .imagemfundo{
+    position: relative;
     height: 500px;
-    border: 1px solid black;
+}
+.imagemfundo::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.550);
 }
 
 @media(max-width: 400px){
