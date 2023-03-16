@@ -5,7 +5,7 @@ import CriandoImagemDeFundo from './imagemfundocabecalho/imagemfundocabecalho';
 import style from './cabecalho.module.scss';
 import container from '../../components/container.module.scss';
 
-export default function CriandoCabecalho(){
+export default function CriandoCabecalho({primeiroValor, segundoValor} : {primeiroValor:number, segundoValor:number}){
     return(
         <header>
             <div className={container.container}>
@@ -17,8 +17,8 @@ export default function CriandoCabecalho(){
             </div>
             <div className={style.imagemfundo}>
                 <CriandoImagemDeFundo
-                    primeiroValor={0}
-                    segundoValor={1}
+                    primeiroValor={primeiroValor}
+                    segundoValor={segundoValor}
                 />
             </div>
         </header>

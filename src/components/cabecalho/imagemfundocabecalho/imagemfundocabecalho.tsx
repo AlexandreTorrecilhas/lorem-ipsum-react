@@ -4,11 +4,12 @@ import style from './imagemfundo.module.scss';
 export default function criandoImagemDeFundo({primeiroValor, segundoValor} : {primeiroValor:number, segundoValor:number}){
 
     const imagens = [
-        cellbanner
+        ['...',cellbanner]
+        //cellbanner
         //['../../../img/banner-normal.png'], ['../../../img/cell-banner.png']
     ]
 
     return(
-        <img className={style.imagemfundo} src={imagens[primeiroValor]} alt="" />
+        <img className={style.imagemfundo} src={imagens[primeiroValor][segundoValor]} alt="" />
     )
 }
