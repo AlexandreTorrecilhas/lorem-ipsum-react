@@ -10,21 +10,9 @@
 }
 .imagemfundo{
     height: 500px;
-    position: relative;
-}
-.imagemfundo::before{
-    z-index: 0;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.550);
+    border: 1px solid black;
 }
 
 @media(max-width: 400px){
-    .imagemfundo{
-        background-image: url('../../img/cell-banner.png');
-    }
+
 }
