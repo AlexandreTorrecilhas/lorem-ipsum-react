@@ -17,7 +17,14 @@ export default function CriandoCabecalho(){
                 </div>
             </div>
             <div className={style.imagemfundo}>
-                
+                <div className={container.container}>
+                    <hgroup>
+                        <h1>Somos a Lorem Ipsum</h1>
+                        <h3>
+                            Olá, somos a lorem Ipsum. Nosso trabalho é desenvolver textos de marcação
+                        </h3>
+                    </hgroup>
+                </div>
             </div>
         </header>
     )

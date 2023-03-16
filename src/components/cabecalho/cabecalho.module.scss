@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 .cabecalho{
-    border: 1px solid black;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -14,6 +13,12 @@
     position: relative;
     height: 500px;
     background-image: url('../../img/banner-normal.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: purple;
+    font-weight: bolder;
 }
 .imagemfundo::after{
     content: '';

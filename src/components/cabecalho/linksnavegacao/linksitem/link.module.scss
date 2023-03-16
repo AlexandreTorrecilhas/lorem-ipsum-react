@@ -1,6 +1,14 @@
 .link{
+    color: black;
     text-decoration: none;
-    color: white;
-    font-size: 20pt;
-    font-weight: bolder;
+    margin: 0px 5px
+}
+@media(max-width: 500px){
+    .link{
+        text-decoration: none;
+        color: white;
+        font-size: 20pt;
+        font-weight: bolder;
+        margin: 0px;
+    }
 }

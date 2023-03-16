@@ -1,12 +1,17 @@
 .botaomenu{
-    z-index: 3;
-    background-color: purple;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    width: 55px;
-    border: 1px solid red;
+    display: none;
+}
+@media(max-width: 500px){
+    .botaomenu{
+        display: block;
+        z-index: 3;
+        background-color: purple;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        width: 55px;
+    }
 }
