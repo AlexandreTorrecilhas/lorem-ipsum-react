@@ -1,3 +1,5 @@
+import style from './grupodetitulos.module.scss';
+
 export default function grupoDeTitulos({sectionsolicitada} : {sectionsolicitada:number}){
     
     const VALORH1 = 0;
@@ -7,7 +9,7 @@ export default function grupoDeTitulos({sectionsolicitada} : {sectionsolicitada:
     ]
 
     return(
-        <hgroup>
+        <hgroup className={style.grupodetitulos}>
             <h3>
                 {
                     titulos[sectionsolicitada][VALORH1]

@@ -1,0 +1,10 @@
+.grupodetitulos{
+    width: 100%;
+    text-align: left;
+}
+@media(max-width: 500px){
+    .grupodetitulos{
+        margin: auto;
+        text-align: center;
+    }
+}

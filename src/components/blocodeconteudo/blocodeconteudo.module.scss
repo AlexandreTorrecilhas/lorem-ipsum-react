@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+.blocodeconteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.blocodetexto{
+    margin-right: 100px;
+}
+.blocodetexto, .blocodeimagem{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width: 500px){
+    .blocodeconteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blocodetexto{
+        margin-right: 0px;
+    }
+    .blocodetexto, .blocodeimagem{
+        width: 100%;
+    }
+}

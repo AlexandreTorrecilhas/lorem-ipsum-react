@@ -1,0 +1,9 @@
+.blocodetexto{
+    width: 100%;
+    text-align: left;
+}
+@media(max-width: 500px){
+    .blocodetexto{
+        text-align: center;
+    }
+}
