@@ -3,11 +3,12 @@
     padding: 0px;
 }
 .blocodeconteudo{
+    border: 1px solid red;
+    margin: 5px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 .blocodetexto{
     margin-right: 100px;
@@ -15,6 +16,7 @@
 .blocodetexto, .blocodeimagem{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 @media(max-width: 500px){
     .blocodeconteudo{

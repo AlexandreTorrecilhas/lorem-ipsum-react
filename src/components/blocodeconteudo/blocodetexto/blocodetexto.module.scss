@@ -1,9 +1,11 @@
 .blocodetexto{
+    border: 1px solid black;
     width: 100%;
     text-align: left;
 }
 @media(max-width: 500px){
     .blocodetexto{
+        width: 100%;
         text-align: center;
     }
 }

@@ -1,0 +1,13 @@
+@charset 'utf-8';
+$imagem-sobre-nos: url('../../../img/banner-about-us-normal.png');
+$posicaoSolicitada: 0;
+
+
+@function setImagemDeFundo($valorDaPosicao){
+    $posicaoSolicitada: $valorDaPosicao;
+}
+.blocoDeConteudo{
+    background-image: $imagem-sobre-nos($posicaoSolicitada);
+    
+}
+
